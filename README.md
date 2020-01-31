@@ -8,8 +8,8 @@ https://open.kattis.com/
 Example:
 ```python
 for i in sys.stdin:
-    ab = i.split()
-    a = int(ab[0])
-    b = int(ab[1])
+    a, b = [int(j) for j in i.split()]
+    break
     # Solve the test case and output the answer
+    print(stuff)
 ```
