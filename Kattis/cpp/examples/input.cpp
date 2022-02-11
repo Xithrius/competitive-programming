@@ -1,11 +1,13 @@
+// https://open.kattis.com/problems/
+
 #include <algorithm>
-#include <iostream>
 #include <cmath>
+#include <iostream>
 
 using namespace std;
 
 int main(void) {
-	int a, b;
+	long long a, b;
 
 	while (cin >> a >> b)
 		cout << abs(a - b) << endl;
