@@ -5,11 +5,11 @@
 using namespace std;
 
 int main(void) {
-    int a;
+	int a;
 
-    cin >> a;
+	cin >> a;
 
-    cout << ((a % 2 == 0) ? "Bob" : "Alice") << endl;
+	cout << ((a % 2 == 0) ? "Bob" : "Alice") << endl;
 
 	return 0;
 }

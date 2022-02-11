@@ -5,11 +5,11 @@
 using namespace std;
 
 int main(void) {
-    int a, placeholder;
+	int a, placeholder;
 
 	cin >> placeholder >> a;
 
-    cout << a;
+	cout << a;
 
 	return 0;
 }

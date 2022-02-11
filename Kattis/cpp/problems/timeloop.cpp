@@ -5,11 +5,11 @@
 using namespace std;
 
 int main(void) {
-    int a;
+	int a;
 
-    cin >> a;
+	cin >> a;
 
-    for (int i = 1; i <= a; i++) {
+	for (int i = 1; i <= a; i++) {
 		cout << i << " Abracadabra" << endl;
 	}
 

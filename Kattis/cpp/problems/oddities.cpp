@@ -5,15 +5,15 @@
 using namespace std;
 
 int main(void) {
-    int a, b;
+	int a, b;
 
-    cin >> b;
+	cin >> b;
 
-    for (int i = 0; i < b; i++) {
-        cin >> a;
+	for (int i = 0; i < b; i++) {
+		cin >> a;
 
-        cout << a << " is " << ((a % 2 == 0) ? "even" : "odd") << endl;
-    }
+		cout << a << " is " << ((a % 2 == 0) ? "even" : "odd") << endl;
+	}
 
 	return 0;
 }

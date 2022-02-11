@@ -5,15 +5,15 @@
 using namespace std;
 
 int main(void) {
-    int a, total = 0;
+	int a, total = 0;
 
-    while (cin >> a) {
-        if (42 % a == 0) {
-            total++;
-        }
-    }
+	while (cin >> a) {
+		if (42 % a == 0) {
+			total++;
+		}
+	}
 
-    cout << total << endl;
+	cout << total << endl;
 
 	return 0;
 }
