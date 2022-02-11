@@ -128,4 +128,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-a.out
+*/a.out
+*/in.txt
+*/input.txt
+
